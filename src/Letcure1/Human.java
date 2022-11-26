@@ -49,6 +49,7 @@ public class Human {
 
     private int height;
     private int weight;
+    // the contructor has the same name as the class
     Human(String _name , int _age , int _height , int _weight){
         name = _name;
         age = _age;
