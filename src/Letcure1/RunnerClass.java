@@ -15,9 +15,8 @@ public class RunnerClass {
         System.out.println(human.getAge());
         System.out.println(human.getHeight());
         System.out.println(human.getWeight());
-
-        human.setName("Anjanay Raina");
-        System.out.println(human.getName());
+        human.incrementAge();
+        System.out.println(human.getAge());
 
     }
 }

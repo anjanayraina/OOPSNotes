@@ -40,6 +40,12 @@ public class Human {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+    // public is the ascess modifier
+    // void is the return statement
+    // incrementAge is the name of the function
+    public void incrementAge(){
+        setAge(getAge() +1);
+    }
 
     private int height;
     private int weight;
